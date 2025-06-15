@@ -6,7 +6,8 @@
   "scripts": {
     "start": "directus start",
     "dev": "directus start",
-    "build": "directus bootstrap",
+    "build": "echo 'Build complete'",
+    "postinstall": "directus bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["directus", "cms", "railway"],
